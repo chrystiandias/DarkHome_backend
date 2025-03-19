@@ -1,0 +1,44 @@
+# Ignorar dependências do Node.js
+node_modules/
+*.log
+.env
+
+# Ignorar arquivos do VS Code
+.vscode/
+
+# Ignorar caches e configurações temporárias
+.cache/
+.DS_Store
+
+# Ignorar arquivos do sistema do Windows
+Thumbs.db
+Desktop.ini
+
+# Ignorar logs e arquivos de bloqueio do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Ignorar pastas do usuário no Windows
+AppData/
+Downloads/
+
+# Igonorar pastas do sistema que apareceram no git status
+Ambiente de Impressão/
+Ambiente de Rede/
+Configurações Locais/
+Cookies/
+Dados de Aplicativos/
+Menu Iniciar/
+Meus Documentos/
+Modelos/
+Recent/
+SendTo/
+
+# Ignorar arquivos do sistema do Windows que deram erro de permissão
+NTUSER.DAT*
+VirtualBox VMs/
+eclipse-workspace/
+
+
